@@ -1,0 +1,107 @@
+body {
+
+    margin: 0;
+
+    background: #111;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+#jogo {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+
+header {
+
+    border-bottom: 2px solid white;
+
+    margin-bottom: 20px;
+
+}
+
+
+#imagem-cena {
+
+    width: 100%;
+
+    max-height: 500px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+
+#titulo-cena {
+
+    font-size: 30px;
+
+}
+
+
+#texto-cena {
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    white-space: pre-line;
+
+    margin: 25px;
+
+}
+
+
+button {
+
+    display: block;
+
+    width: 80%;
+
+    margin: 12px auto;
+
+    padding: 15px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    border: none;
+
+    border-radius: 5px;
+
+}
+
+
+button:hover {
+
+    transform: scale(1.03);
+
+}
+
+
+#botoes-jogo {
+
+    margin-top: 40px;
+
+    border-top: 1px solid #555;
+
+    padding-top: 20px;
+
+}
