@@ -162,7 +162,7 @@ mostrar_status()
 
 if st.session_state.cena == "inicio":
 
-    mostrar_imagem("inicio_aetherion.png")
+    mostrar_imagem("Tela inicial")
 
     st.title("AS CRONICAS DE AETHERION")
 
@@ -201,7 +201,7 @@ elif st.session_state.cena == "nivel_1":
 
     st.title("NIVEL 1 - FLORESTA DE ELDORIA")
 
-    mostrar_imagem("nivel_1_floresta.png")
+    mostrar_imagem("Cena 1")
 
     tocar_musica("02_Floresta_de_Eldoria.mid")
 
@@ -254,7 +254,7 @@ elif st.session_state.cena == "nivel_2":
 
     st.title("NIVEL 2 - TEMPLO DA TERRA")
 
-    mostrar_imagem("templo_terra_caminhos.png")
+    mostrar_imagem("ChatGPT Imagem 20 de ago. de 2026, 18_09_05.png")
 
     tocar_musica("03_Templo_da_Terra.mid")
 
@@ -282,6 +282,8 @@ elif st.session_state.cena == "nivel_2":
 
             st.session_state.cristal_terra = True
 
+            mostrar_imagem("Cena 2")
+
             st.success("""
             Voce enfrenta as criaturas de pedra e encontra
             o primeiro Cristal Elemental!
@@ -302,7 +304,7 @@ elif st.session_state.cena == "nivel_3":
 
     st.title("NIVEL 3 - MONTANHAS DE FROSTPEAK")
 
-    mostrar_imagem("nivel_3_frostpeak.png")
+    mostrar_imagem("Cena 3")
 
     tocar_musica("04_Montanhas_de_Frostpeak.mid")
 
@@ -356,7 +358,7 @@ elif st.session_state.cena == "nivel_4":
 
     st.title("NIVEL 4 - VULCAO INFERNIS")
 
-    mostrar_imagem("nivel_4_vulcao.png")
+    mostrar_imagem("Cena 4")
 
     tocar_musica("05_Vulcao_Infernis.mid")
 
@@ -405,7 +407,7 @@ elif st.session_state.cena == "nivel_5":
 
     st.title("NIVEL 5 - O TORNADO DOS VENTOS")
 
-    mostrar_imagem("nivel_5_tornado.png")
+    mostrar_imagem("Cena 5")
 
     tocar_musica("06_Tornado_dos_Ventos.mid")
 
@@ -445,8 +447,6 @@ elif st.session_state.cena == "nivel_5":
 elif st.session_state.cena == "tornado_destrocos":
 
     st.title("CORRIDA - DESTROCOS")
-
-    mostrar_imagem("nivel_5_destrocos.png")
 
     st.write("""
     Voce comeca a ultrapassar o Guardiao.
@@ -498,7 +498,7 @@ elif st.session_state.cena == "nivel_6":
 
     st.title("NIVEL 6 - CASTELO SOMBRIO")
 
-    mostrar_imagem("nivel_6_castelo.png")
+    mostrar_imagem("Cena 6")
 
     tocar_musica("07_Castelo_Sombrio.mid")
 
@@ -563,7 +563,7 @@ elif st.session_state.cena == "nivel_7":
 
     st.title("NIVEL 7 - MORDRAK, O REI SOMBRIO")
 
-    mostrar_imagem("nivel_7_mordrak.png")
+    mostrar_imagem("Cena 7 parte 1")
 
     tocar_musica("08_Mordrak_Rei_Sombrio.mid")
 
@@ -608,6 +608,8 @@ elif st.session_state.cena == "mordrak_fase_2":
     Trovoes negros comecam a cair sobre voce!
     """)
 
+    mostrar_imagem("Cena 7 parte 2")
+
     escolha = st.radio(
         "Como voce reage?",
         [
@@ -640,6 +642,8 @@ elif st.session_state.cena == "mordrak_fase_3":
 
     Cinco versoes dele aparecem ao seu redor.
     """)
+
+    mostrar_imagem("Cena 7 parte 3")
 
     escolha = st.radio(
         "Como voce enfrenta os clones?",
@@ -675,6 +679,8 @@ elif st.session_state.cena == "mordrak_final":
 
     ECLIPSE FINAL!
     """)
+
+    mostrar_imagem("Cena 7 parte final")
 
     escolha = st.radio(
         "Qual sera seu ultimo movimento?",
@@ -715,6 +721,8 @@ elif st.session_state.cena == "arche_form":
 
     mostrar_imagem("mordrak_derrotado.png")
 
+    mostrar_imagem("Arché form vencendo o Mordrak")
+
     tocar_musica("09_Arche_Form.mid")
 
     st.write("""
@@ -745,7 +753,7 @@ elif st.session_state.cena == "vitoria":
 
     st.title("AETHERION ESTA EM PAZ")
 
-    mostrar_imagem("aetherion_em_paz.png")
+    mostrar_imagem("Restaurando a paz")
 
     tocar_musica("10_Aetherion_em_Paz.mid")
 

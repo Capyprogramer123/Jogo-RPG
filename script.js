@@ -83,9 +83,9 @@ Cristal do Ar
 Sua jornada esta prestes a comecar.
 `,
 
-        imagem: "assets/imagens/inicio_aetherion.png",
+        imagem: "assets/imagens/Tela inicial",
 
-        audio: "assets/audios/inicio.mp3",
+        audio: "assets/audios/01_A_Jornada_Comeca",
 
         opcoes: [
 
@@ -118,9 +118,9 @@ O caminho para a floresta esta logo a frente.
 O que voce fara?
 `,
 
-        imagem: "assets/imagens/nivel_1_floresta.png",
+        imagem: "assets/imagens/Cena 1",
 
-        audio: "assets/audios/floresta.mp3",
+        audio: "assets/audios/02_Floresta_de_Eldoria",
 
         checkpoint: true,
 
