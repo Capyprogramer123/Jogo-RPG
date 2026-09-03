@@ -21,7 +21,7 @@ BASE = Path(__file__).parent
 
 PASTA_IMAGENS = BASE / "assets" / "imagens"
 PASTA_AUDIOS = BASE / "assets" / "audios"
-
+PASTA_VIDEO = BASE / "assets" / "video"
 
 # =========================================================
 # FUNCOES AUXILIARES
@@ -232,6 +232,28 @@ elif st.session_state.cena == "nivel_1":
 
             Os moradores prometem ajuda-lo quando precisar.
             """)
+
+            def mostrar_video(Video):
+
+                imagem = document.getElementById("imagem-cena")
+
+                video = document.getElementById("video-cena")
+
+                imagem.style.display = "none"
+
+                video.style.display = "block"
+
+                video.src = Video
+
+                video.play()
+
+                def esconder_video():
+
+                    video = document.getElementById("video-cena")
+
+                    video.pause()
+
+                    video.style.display = "none"
 
         else:
 
